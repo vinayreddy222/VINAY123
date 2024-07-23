@@ -1,0 +1,197 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.firstnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 60px;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+}
+.firstnav .logo{
+    display: flex ;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  
+}
+#bus{
+    display: flex;
+    position: relative;
+    left: 80px;
+    border-radius: 10px; 
+}
+.bus3 p{
+position: relative;
+left: -18px;
+}
+.off{
+    background-color: green;
+    position: relative;
+    width: fit-content;
+    color: aliceblue;
+    left: 45px;
+    border-radius: 35px;
+}
+.bus3{
+    position: absolute;
+    left: 280px;
+    
+}
+.leftnav{
+    position: absolute;
+    left: 750px;
+    top: 20px;
+
+}
+.leftnav img{
+    position: relative;
+    left: 40px;
+    height: 30px;
+}
+.leftnav p{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+.leftnav i{
+    position: relative;
+    left: 160px;
+    top: -7px;
+}
+.leftnav #acc{
+    position: relative;
+    left:250px;
+    top: -25px;
+}
+
+.bg img{
+    width:100%;
+    margin-top: 40px;
+}
+.bg h1{
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    color: white;
+}
+.search {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    height: 80px;
+    width: 800px;
+    border-radius: 30px;
+}
+.search i{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.search p{
+    position:relative;
+    left: 45px;
+    top: 5px;
+}
+.secsearch i{
+    position: absolute;
+    top: 260px;
+    left: 350px; 
+}
+.secsearch p{
+    position:absolute;
+    top: 250px;
+    left: 375px;
+
+}
+.button{
+    background-color: brown;
+    position: absolute;
+    width:200px;
+    height: 80px;
+    top: 230px;
+    left: 775px;
+    text-align: center;
+    align-content: center;
+    color: aliceblue;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.offers{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 450px;
+    left: 20px;
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+}
+.offers h2{
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 25px;
+   
+}
+#view{
+    height: fit-content;
+    width:  50px;
+    display: flex;
+    position: relative;
+    top: 400px;
+    right: 40px;
+    border: 2px solid rgb(100, 96, 96);
+    border-radius: 30px;
+    color: rgb(0, 102, 255);
+}
+.offercard{
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 900px;
+}
+.card {
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+    left: -60px;
+    border-radius: 10px;
+    color: white;
+    font-size: small;
+    background-color: blue;
+    height: 100px;
+    width: 170px;
+    
+}
+.card img {
+    position: relative;
+    left: 10px;
+    top: 20px;
+    border-radius: 10px;
+    height: 40px;
+  
+
+}
+.card p{
+    position: absolute;
+    top: 20px;
+    left:60px;
+}
+.govt{
+    justify-content: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 800px;
+}
